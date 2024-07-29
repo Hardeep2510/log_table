@@ -3,7 +3,7 @@ import snowflake.connector
 import time
 import logging
 import sys
-st.title('log table data')
+st.title('Log Table Data with Snowpark')
 
 class SnowConnector:
     def __init__(self, creds):
